@@ -1,0 +1,29 @@
+.Nav{
+    padding: 20px var(--pad);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav h1{
+    font-size: var(--title);
+    font-family: 'Damion', cursive;
+    font-weight: 300;
+}
+
+.Nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.Nav li{
+    font-size: var(--small);
+}
+
+.Nav ul li:last-child{
+    background-color: var(--yellow);
+    padding: 5px 8px;
+    color: var(--black);
+}

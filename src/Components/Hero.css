@@ -1,0 +1,43 @@
+.Hero{
+    padding: 200px var(--pad);
+    cursor: default;
+}
+
+.Hero p{
+    font-size: var(--text);
+}
+
+.Hero h1{
+    font-size: var(--big);
+}
+
+.yellow{
+    color: var(--yellow);
+}
+
+.gray{
+    color:var(--gray);
+}
+
+.heroPara{
+    width: 40vw;
+}
+
+.heroImg{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.Hero span {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+        color: var(--yellow);
+    }
+  }
