@@ -28,7 +28,7 @@ const HireMe = () => {
     ]
 
     return(
-        <div className="HireMe">
+        <div className="HireMe" id="hire">
             <p className="yellowText">Now the important part 🚨,</p>
             <h2 className="whiteTitle">Why should you hire me?</h2>
             <p>Here are some of the top reasons,</p>
