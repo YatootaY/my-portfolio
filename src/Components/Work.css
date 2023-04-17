@@ -32,3 +32,22 @@
     justify-content: center;
     gap: 100px;
 }
+
+@media  screen and (max-width: 800px) {
+
+    .workDetails p{
+        width: fit-content;
+        text-align: center;
+        font-size: var(--small);
+    }
+
+    .workDetails h2{
+        text-align: center;
+    }
+  
+    .workIntro p{
+        font-size: var(--small);
+    }
+  
+  }
+  

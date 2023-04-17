@@ -14,3 +14,10 @@
 .ReasonCard span{
     font-size: var(--title);
 }
+
+@media  screen and (max-width: 800px) {
+
+    .ReasonCard p{
+        font-size: var(--mobileSmall);
+    }
+}

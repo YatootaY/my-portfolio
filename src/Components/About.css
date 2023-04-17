@@ -9,6 +9,7 @@
 .aboutText{
     width: 30vw;
     color: var(--gray);
+    margin: 20px 0;
 }
 
 
@@ -16,6 +17,7 @@
     display: flex;
     gap:60px;
 }
+
 
 
 @media  screen and (max-width: 800px) {
