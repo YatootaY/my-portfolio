@@ -30,3 +30,27 @@
     text-decoration: underline;
     color: var(--gray);
 }
+
+@media  screen and (max-width: 800px) {
+
+    
+    .Contact h2{
+        font-size: var(--title);
+    }
+    
+    .Contact p{
+        font-size: var(--mobileSmall);
+    }
+
+    .Btn{
+        font-size: var(--mobileSmall);
+    }
+    
+    .link{
+        font-size: var(--mobileSmall);
+    }
+    
+    
+
+
+}
