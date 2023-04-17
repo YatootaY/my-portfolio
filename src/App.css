@@ -28,3 +28,9 @@ a{
 h1,h2,h3,h4,h5{
   margin: 0;
 }
+
+.home{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}

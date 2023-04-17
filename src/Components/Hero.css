@@ -1,6 +1,10 @@
 .Hero{
-    padding: 200px var(--pad);
+    padding: 0 var(--pad);
+    flex-grow: 1;
     cursor: default;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Hero p{
@@ -32,12 +36,12 @@
 
 
 
-.Hero span {
-    animation: blinker 1s linear infinite;
-  }
+.Hero span{
+    animation: blinker 1.5s linear infinite;
+}
   
-  @keyframes blinker {
+@keyframes blinker {
     50% {
         color: var(--yellow);
     }
-  }
+}

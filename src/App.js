@@ -5,8 +5,12 @@ import Hero from './Components/Hero';
 function App() {
   return (
     <div className="App">
+      <div className='home'>
+        <Nav/>
+        <Hero/>
+      </div>
       <Nav/>
-      <Hero/>
+      
     </div>
   );
 }
