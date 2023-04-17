@@ -15,39 +15,8 @@
 
 .aboutList ul{
     display: flex;
-    gap:30px;
-    list-style: none;
-    padding-left: 20px;
+    gap:60px;
 }
-
-.yellowMark{
-    color: var(--yellow);
-}
-
-.aboutListLeft li:nth-child(1)::before{
-    content: "🤖 ";
-}
-
-.aboutListLeft li:nth-child(2)::before{
-    content: "🚀 ";
-}
-
-.aboutListLeft li:nth-child(3)::before{
-    content: "📚 ";
-}
-
-.aboutListRight li:nth-child(1)::before{
-    content: "🧾 ";
-}
-
-.aboutListRight li:nth-child(2)::before{
-    content: "🖌️ ";
-}
-
-.aboutListRight li:nth-child(3)::before{
-    content: "🖼️ ";
-}
-
 
 
 
@@ -60,10 +29,6 @@
 
     .aboutText{
         width: fit-content;
-    }
-
-    .aboutList ul{
-        gap:15px;
     }
 
 
