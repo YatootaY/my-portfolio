@@ -1,0 +1,25 @@
+.Work{
+    padding: 50px 10vw;
+}
+
+.workIntro{
+    text-align: center;
+}
+
+.workIntro p{
+    font-size: var(--normalText);
+    color: var(--gray);
+}
+
+.workDetails h2{
+    font-size: var(--title);
+    color: var(--yellow);
+}
+
+.workDetails p{
+    width: 60vw;
+}
+
+.workDetails span{
+    color: var(--yellow);
+}

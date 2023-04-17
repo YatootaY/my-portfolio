@@ -6,20 +6,25 @@ const HireMe = () => {
 
     const reasons = [
         {
-            title:"Love software development",
+            title:"Love Software Development",
             emoji:"💞",
             text:"Without the commitment and thrive for knowledge, I will never be able to finish the boot camps which heavily rely on self-study!"
         },
         {
-            title:"Fast learner",
+            title:"Fast Learner",
             emoji:"📝",
-            text:"I can’t even count the errors I had while self-studying web development. I solved them and here I am with my portfolio written with React."
+            text:"Because of my extensive experience with self-studying, I am confident in my ability to learn new things with limited resources."
         },
         {
-            title:"Problem solver",
+            title:"Problem Solver",
             emoji:"💡",
             text:"I can’t even count the errors I had while self-studying web development. I solved them and here I am with my portfolio written with React."
         },
+        {
+            title:"Great Communicator",
+            emoji:"📣",
+            text:"I spend a significant amount of time in the education field where communication is the key. I love speaking with people and building a relationship."
+        }
     ]
 
     return(
