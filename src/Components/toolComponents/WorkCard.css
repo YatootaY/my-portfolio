@@ -19,3 +19,14 @@
     border-top-right-radius: 10px;
     
 }
+
+@media  screen and (max-width: 800px) {
+    .WorkCard img{
+        width: 60vw;
+    }
+
+    .WorkCard h2{
+        font-size: var(--mobileSmall);
+    }
+    
+}
