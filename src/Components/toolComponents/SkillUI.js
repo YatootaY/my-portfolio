@@ -13,7 +13,7 @@ const SkillUI = (props) => {
             {
                 props.direction === "left" ?
 
-                <div className="skillCard">
+                <div className="skillCard leftCard">
                     <img src={props.pic} alt="" />
                     <div>
                         <h2>{props.name}</h2>
@@ -23,7 +23,7 @@ const SkillUI = (props) => {
 
                 :
 
-                <div className="skillCard">
+                <div className="skillCard rightCard">
                     <div>
                         <h2>{props.name}</h2>
                         <p dangerouslySetInnerHTML={{ __html: props.text }}></p>

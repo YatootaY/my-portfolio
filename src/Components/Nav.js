@@ -4,7 +4,7 @@ import "./Nav.css"
 const Nav = () => {
     return(
         <header className="Nav">
-            <h1>Yato's Portfolio</h1>
+            <h1>My Portfolio</h1>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#projects">Projects</a></li>

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:50px;
     padding-bottom: 100px;
 }
 
@@ -48,6 +49,18 @@
         flex-wrap: wrap;
         justify-content: center;
         gap:50px;
+    }
+
+    .textArea h1{
+        font-size: var(--normalText);
+    }
+    
+    .textArea p{
+        font-size: var(--smallest);
+    }
+    
+    .textArea a{
+        font-size: var(--smallest);
     }
 
 

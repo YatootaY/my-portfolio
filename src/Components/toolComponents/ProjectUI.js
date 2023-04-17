@@ -11,7 +11,8 @@ import styled from "styled-components";
 
 const RightText = styled.div`
     text-align:right;
-    width:30vw;
+    width:500px;
+
 
     @media  screen and (max-width: 800px) {
         text-align:center;
@@ -21,7 +22,8 @@ const RightText = styled.div`
 
 const LeftText = styled.div`
     text-align:left;
-    width:30vw;
+    width:500px;
+
 
     @media  screen and (max-width: 800px) {
         text-align:center;
@@ -47,11 +49,6 @@ const ProjectUI = (props) => {
     }
 
     const leftTextGenerater = () => {
-        const leftText = {
-            textAlign:"left",
-            width:"30vw"
-        }
-
         return(
             <LeftText className="textArea">
                 <h1 >{props.title}<span>{props.emoji}</span></h1>
@@ -104,13 +101,13 @@ const ProjectUI = (props) => {
             {
                 props.direction === "right" ? 
                 <>
-                    <ImageUI imgSrc={props.pic} width={500} height={400}/>
+                    <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     {rightTextGenerater()}
                 </>
                 :
                 <>
                     {leftTextGenerater()}
-                    <ImageUI imgSrc={props.pic} width={500} height={400}/>
+                    <ImageUI imgSrc={props.pic} width={400} height={300}/>
                 </>
             }
             

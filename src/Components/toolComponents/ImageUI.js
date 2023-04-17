@@ -7,8 +7,9 @@ const StyledImage = styled.img`
     object-fit: cover;
 
     @media  screen and (max-width: 800px) {
-        width:80vw;
-        height:60vw;
+        width:70vw;
+        height:50vw;
+        border: 2px solid var(--yellow)
     }
 `;
 
@@ -22,24 +23,30 @@ const BorderDiv = styled.div`
     z-index: -1;
 
     @media  screen and (max-width: 800px) {
-        width:80vw;
-        height:60vw;
+        display:none;
     }
     
+`
+
+const MainDiv = styled.div`
+    position:relative;
+    
+
+    @media  screen and (max-width: 800px) {
+        width:100vw;
+        display:flex;
+        justify-content:center;
+    }
 `
 
 const ImageUI = (props) => {
 
 
-    const mainDiv = {
-        position:"relative"
-    }
-
     return(
-        <div style={mainDiv}>
+        <MainDiv>
             <StyledImage src={props.imgSrc} alt="" width={props.width} height={props.height}/>
             <BorderDiv width={props.width} height={props.height}/>
-        </div>
+        </MainDiv>
         
     )
 }

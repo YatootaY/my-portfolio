@@ -26,3 +26,32 @@
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
+
+@media  screen and (max-width: 800px) {
+
+    
+    .skillCard h2{
+        font-size: var(--small);
+    }
+    
+    .skillCard p{
+        font-size: var(--mobileSmall);
+    }
+    
+    .skillCard img{
+        width: 100px;
+    }
+
+    .skillCard{
+        justify-content: center;
+    }
+
+    .rightCard{
+        flex-wrap: wrap-reverse;
+    }
+
+    .leftCard{
+        flex-wrap: wrap;
+    }
+
+}

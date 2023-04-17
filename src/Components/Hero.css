@@ -126,6 +126,18 @@
         width: 80vw;
     }
     
+    .Hero p{
+        font-size: var(--smaller);
+    }
+    
+    .Hero h1{
+        font-size: 30px;
+    }
+
+    .heroImg{
+        gap: 10px;
+        justify-content: center;
+    }
 
 
 }

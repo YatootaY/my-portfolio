@@ -5,3 +5,15 @@
 .projectsText{
     margin-bottom: 100px;
 }
+
+@media  screen and (max-width: 800px) {
+
+    .whiteTitle{
+        font-size: var(--normalText);
+    }
+
+    .yellowText{
+        font-size: var(--smallest);
+    }
+
+}
