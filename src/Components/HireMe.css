@@ -1,0 +1,9 @@
+.HireMe{
+    padding: 100px 10vw;
+}
+
+.ReasonCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

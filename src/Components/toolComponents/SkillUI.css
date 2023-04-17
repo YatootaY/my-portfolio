@@ -19,7 +19,7 @@
     background-color: var(--back);
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 20px 30px;
     gap:30px;
     width: 650px;
     border-radius: 10px;

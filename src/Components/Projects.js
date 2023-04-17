@@ -31,7 +31,7 @@ const Projects = () => {
     ]  
 
     return(
-        <div className="Projects">
+        <div className="Projects" id="projects">
             <div className="projectsText">
                 <h2 className="whiteTitle">Let’s see some of my projects! 🗂</h2>
                 <p className="yellowText">I hope these will convince you to hire me. 🙄</p>

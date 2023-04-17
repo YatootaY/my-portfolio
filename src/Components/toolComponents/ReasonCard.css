@@ -1,0 +1,15 @@
+.ReasonCard{
+    background-color: var(--back);
+    padding: 20px 30px;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.ReasonCard h3{
+    color: var(--yellow);
+}
+
+.ReasonCard span{
+    font-size: var(--title);
+}

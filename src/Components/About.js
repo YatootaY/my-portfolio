@@ -5,7 +5,7 @@ import ImageUI from "./toolComponents/ImageUI";
 
 const About = () => {
     return(
-        <div className="About">
+        <div className="About" id="about">
             <div className="aboutText">
                 <p className="yellowText">Still having confused feeling ❓</p>
                 <h2 className="whiteTitle">Let’s get to know better!</h2>
