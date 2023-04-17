@@ -1,0 +1,28 @@
+.skillCard h2{
+    font-size: var(--normalText);
+}
+
+.skillCard p{
+    font-size: var(--smallest);
+    color: var(--gray);
+}
+
+.skillCard span{
+    color: var(--yellow);
+}
+
+.skillContainer{
+    display: flex;
+}
+
+.skillCard{
+    background-color: var(--back);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap:30px;
+    width: 650px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
