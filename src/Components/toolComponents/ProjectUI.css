@@ -44,9 +44,15 @@
 
 @media  screen and (max-width: 800px) {
 
-    
-    .ProjectUI{
+    .rightProject{
         flex-wrap: wrap;
+    }
+
+    .leftProject{
+        flex-wrap: wrap-reverse;
+    }
+
+    .ProjectUI{
         justify-content: center;
         gap:50px;
     }

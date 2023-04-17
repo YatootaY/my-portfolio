@@ -97,23 +97,23 @@ const ProjectUI = (props) => {
     }
 
     return(
-        <div className="ProjectUI">
+        <>
             {
                 props.direction === "right" ? 
-                <>
+                <div className="ProjectUI rightProject">
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     {rightTextGenerater()}
-                </>
+                </div>
                 :
-                <>
+                <div className="ProjectUI leftProject">
                     {leftTextGenerater()}
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
-                </>
+                </div>
             }
             
 
             
-        </div>
+        </>
     )
 }
 
