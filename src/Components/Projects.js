@@ -11,15 +11,15 @@ const Projects = () => {
             pic:Project1,
             title:"Selfie Generator",
             emoji:"📸",
-            text:"Upload your photo and swap the background with a background art to make it pretty.",
+            text:"Upload your photo and swap the background with background art to make it pretty.",
             tech:["html","css","reactjs","figma"],
             link:"https://github.com/YatoAki/selfie-generator"
         },
         {
             pic:Project2,
-            title:"5 Minute Chat",
+            title:"5-Minute Chat",
             emoji:"⏳",
-            text:"Share your code and create a chat room that only exist for 5 minutes. Try to get to know someone within time limit.",
+            text:"Share your code and create a chat room that only exists for 5 minutes. Try to get to know someone within the time limit.",
             tech:["html","css","reactjs","firebase","tailwind"],
             link:"https://github.com/YatoAki/five-minute-chat"
         },
@@ -27,7 +27,7 @@ const Projects = () => {
             pic:Project3,
             title:"Yours Resolution",
             emoji:"📝",
-            text:"Answer questions and generate a code to share your new year resolution with loved ones. (Hackathon winning project)",
+            text:"Answer questions and generate a code to share your new year's resolution with loved ones. (Hackathon winning project)",
             tech:["html","css","reactjs","firebase","tailwind"],
             link:"https://github.com/YatoAki/yours-resolution"
         }
@@ -37,7 +37,7 @@ const Projects = () => {
         <div className="Projects" id="projects">
             <div className="projectsText">
                 <h2 className="whiteTitle">Let’s see some of my projects! 🗂</h2>
-                <p className="yellowText">I hope these will convince you to hire me. 🙄</p>
+                <p className="yellowText">I hope this will convince you to hire me. 🙄</p>
             </div>
             
             {projectData.map((data,key) => {

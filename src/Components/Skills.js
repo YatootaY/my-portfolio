@@ -12,7 +12,7 @@ const Skills = () => {
         {
             pic:miit,
             name:"Myanmar Institute of Technology",
-            text:"I learned <span>C programming</span> in my first year of university and got a taste of programming. In addition to that, I have also done <span>embedded programming</span> by using Arduino."
+            text:"I learned <span>C programming</span> in my first year of university and got a taste of programming. In addition to that, I have also done <span>embedded programming</span> using Arduino."
         },
         {
             pic:appAcademy,
@@ -27,7 +27,7 @@ const Skills = () => {
         {
             pic:meta,
             name:"Meta Front-end Developer Professional Certificate",
-            text:"I learned to develop react app in an organized way. I also learned how to use <span>Figma</span> to improve <span>UI/UX</span> of my webpage."
+            text:"I learned to develop react app in an organized way. I also learned how to use <span>Figma</span> to improve the <span>UI/UX</span> of my webpage."
         }
     ]
 
