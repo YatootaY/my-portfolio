@@ -33,8 +33,8 @@ const Projects = () => {
     return(
         <div className="Projects">
             <div className="projectsText">
-                <h2 className="whiteTitle">Let’s see some of my project! 🗂</h2>
-                <p className="yellowText">These may pursues you to hire me. 🙄</p>
+                <h2 className="whiteTitle">Let’s see some of my projects! 🗂</h2>
+                <p className="yellowText">I hope these will convince you to hire me. 🙄</p>
             </div>
             
             {projectData.map((data,key) => {

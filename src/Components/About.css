@@ -1,0 +1,17 @@
+.About{
+    padding: 100px 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutText{
+    width: 30vw;
+    color: var(--gray);
+}
+
+
+.aboutList ul{
+    display: flex;
+    gap:60px;
+}
