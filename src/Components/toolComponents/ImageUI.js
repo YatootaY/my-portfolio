@@ -6,6 +6,10 @@ const StyledImage = styled.img`
     height: ${props => props.height}px;
     object-fit: cover;
 
+    &:hover {
+        filter: none;
+      }
+
     @media  screen and (max-width: 800px) {
         width:70vw;
         height:50vw;

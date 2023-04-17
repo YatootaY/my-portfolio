@@ -5,6 +5,11 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     height: 200px;
+    transition-duration: 0.2s;
+}
+
+.ReasonCard:hover{
+    transform: translateY(-10px);
 }
 
 .ReasonCard h3{

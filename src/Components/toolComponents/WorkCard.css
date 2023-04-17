@@ -1,6 +1,11 @@
 .WorkCard{
     background-color: var(--back);
     border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.WorkCard:hover{
+    transform: translateY(-10px);
 }
 
 .WorkCard h2{
