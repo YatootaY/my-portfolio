@@ -4,6 +4,7 @@
 
 .workIntro{
     text-align: center;
+    margin: 100px 0;
 }
 
 .workIntro p{
@@ -22,4 +23,12 @@
 
 .workDetails span{
     color: var(--yellow);
+}
+
+.workCards{
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
 }

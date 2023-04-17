@@ -12,21 +12,21 @@ const Projects = () => {
             title:"Selfie Generator",
             emoji:"📸",
             text:"Upload your photo and swap the background with a background art to make it pretty.",
-            tech:["html","css","react","figma"]
+            tech:["html","css","reactjs","figma"]
         },
         {
             pic:Project2,
             title:"5 Minute Chat",
             emoji:"⏳",
             text:"Share your code and create a chat room that only exist for 5 minutes. Try to get to know someone within time limit.",
-            tech:["html","css","react","firebase","tailwind"]
+            tech:["html","css","reactjs","firebase","tailwind"]
         },
         {
             pic:Project3,
             title:"Yours Resolution",
             emoji:"📝",
             text:"Answer questions and generate a code to share your new year resolution with loved ones. (Hackathon winning project)",
-            tech:["html","css","react","firebase","tailwind"]
+            tech:["html","css","reactjs","firebase","tailwind"]
         }
     ]  
 
