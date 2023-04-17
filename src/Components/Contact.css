@@ -1,0 +1,32 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 150px 0;
+}
+
+.Contact h2{
+    font-size: var(--big);
+}
+
+.Contact p{
+    font-size: var(--smalleset);
+}
+
+.ContactDetails{
+    color: var(--gray);
+}
+
+.Btn{
+    background-color: var(--yellow);
+    padding: 10px 30px;
+    color: var(--black);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.link{
+    text-decoration: underline;
+    color: var(--gray);
+}
