@@ -17,14 +17,14 @@ const About = () => {
                     Now I am ready to set up my game by becoming a full-time developer where it is my job to turn ideas into fully functional apps.
                 </p>
                 <p className="aboutList">
-                    I am now working with
+                    <span className="yellowMark">I am now working with</span>
                     <ul>
-                        <div>
+                        <div className="aboutListLeft">
                             <li>ReactJS</li>
                             <li>Tailwind CSS</li>
                             <li>Firebase BaaS</li>
                         </div>
-                        <div>
+                        <div className="aboutListRight">
                             <li>Git</li>
                             <li>Figma</li>
                             <li>Adobe Illustrator</li>
