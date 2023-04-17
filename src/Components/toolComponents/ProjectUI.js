@@ -24,7 +24,7 @@ const ProjectUI = (props) => {
                 <div className="icons">
                     {textIconGenerator()}
                 </div>
-                <button>Check on GitHub</button>
+                <a>Check on GitHub</a>
             </div>
         )
     }
@@ -42,7 +42,7 @@ const ProjectUI = (props) => {
                 <div className="icons">
                     {textIconGenerator()}
                 </div>
-                <button>Check on GitHub</button>
+                <a>Check on GitHub</a>
             </div>
         )
     }

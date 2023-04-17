@@ -16,7 +16,7 @@
     color:var(--gray)
 }
 
-.textArea button{
+.textArea a{
     font-size: var(--normalText);
     color: var(--black);
     background-color: var(--yellow);
@@ -24,6 +24,7 @@
     padding: 10px 30px;
     font-weight: 600;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .icons img{
@@ -31,5 +32,6 @@
 }
 
 .icons{
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
