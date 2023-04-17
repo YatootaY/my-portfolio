@@ -1,22 +1,35 @@
 import React from "react";
+import styled from 'styled-components'
+
+const StyledImage = styled.img`
+    width: ${props => props.width}px;
+    height: ${props => props.height}px;
+    object-fit: cover;
+
+    @media  screen and (max-width: 800px) {
+        width:80vw;
+        height:60vw;
+    }
+`;
+
+const BorderDiv = styled.div`
+    width: ${props => props.width}px;
+    height: ${props => props.height}px;
+    border: 2px solid var(--yellow);
+    position: absolute;
+    bottom: -5px;
+    left: -10px;
+    z-index: -1;
+
+    @media  screen and (max-width: 800px) {
+        width:80vw;
+        height:60vw;
+    }
+    
+`
 
 const ImageUI = (props) => {
 
-    const imageStyle = {
-        width:`${props.width}px`,
-        height:`${props.height}px`,
-        objectFit:"cover"
-    }
-
-    const borderDiv = {
-        width:`${props.width}px`,
-        height:`${props.height}px`,
-        border: "2px solid var(--yellow)",
-        position:"absolute",
-        bottom:"-5px",
-        left:"-10px",
-        zIndex:-1
-    }
 
     const mainDiv = {
         position:"relative"
@@ -24,8 +37,8 @@ const ImageUI = (props) => {
 
     return(
         <div style={mainDiv}>
-            <img src={props.imgSrc} alt="" style={imageStyle}/>
-            <div style={borderDiv}></div>
+            <StyledImage src={props.imgSrc} alt="" width={props.width} height={props.height}/>
+            <BorderDiv width={props.width} height={props.height}/>
         </div>
         
     )
