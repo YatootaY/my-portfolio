@@ -31,7 +31,12 @@ const Projects = () => {
     ]  
 
     return(
-        <div>
+        <div className="Projects">
+            <div className="projectsText">
+                <h2 className="whiteTitle">Let’s see some of my project! 🗂</h2>
+                <p className="yellowText">These may pursues you to hire me. 🙄</p>
+            </div>
+            
             {projectData.map((data,key) => {
                 return <ProjectUI pic={data.pic} title={data.title} text={data.text} emoji={data.emoji} direction={key%2 === 0 ? "right" : "left"} tech={data.tech}/>
             })}

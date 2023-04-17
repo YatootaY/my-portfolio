@@ -34,3 +34,14 @@ h1,h2,h3,h4,h5{
   height: 100vh;
   flex-direction: column;
 }
+
+.whiteTitle{
+  font-size: var(--title);
+  color: var(--white);
+}
+
+.yellowText{
+  font-size: var(--normalText);
+  color: var(--yellow);
+  margin: 5px;
+}
