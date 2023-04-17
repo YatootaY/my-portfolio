@@ -7,25 +7,42 @@ import reactjs from "../../assets/🦆 icon _file type reactjs_.png"
 import figma from "../../assets/Figma (icon — Colour).png"
 import tailwind from "../../assets/🦆 icon _file type tailwind_.png"
 import ImageUI from "./ImageUI";
+import styled from "styled-components";
+
+const RightText = styled.div`
+    text-align:right;
+    width:30vw;
+
+    @media  screen and (max-width: 800px) {
+        text-align:center;
+        width:fit-content;
+    }    
+`
+
+const LeftText = styled.div`
+    text-align:left;
+    width:30vw;
+
+    @media  screen and (max-width: 800px) {
+        text-align:center;
+        width:fit-content;
+    }    
+`
 
 const ProjectUI = (props) => {
 
 
     const rightTextGenerater = () => {
-        const rightText = {
-            textAlign:"right",
-            width:"30vw"
-        }
 
         return(
-            <div className="textArea" style={rightText}>
+            <RightText className="textArea">
                 <h1 >{props.title}<span>{props.emoji}</span></h1>
                 <p>{props.text}</p>
                 <div className="icons">
                     {textIconGenerator()}
                 </div>
                 <a>Check on GitHub</a>
-            </div>
+            </RightText>
         )
     }
 
@@ -36,14 +53,14 @@ const ProjectUI = (props) => {
         }
 
         return(
-            <div className="textArea" style={leftText}>
+            <LeftText className="textArea">
                 <h1 >{props.title}<span>{props.emoji}</span></h1>
                 <p>{props.text}</p>
                 <div className="icons">
                     {textIconGenerator()}
                 </div>
                 <a>Check on GitHub</a>
-            </div>
+            </LeftText>
         )
     }
 
