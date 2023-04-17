@@ -25,3 +25,11 @@
     font-weight: 600;
     border-radius: 5px;
 }
+
+.icons img{
+    margin: 0 10px;
+}
+
+.icons{
+    margin: 10px 0;
+}
