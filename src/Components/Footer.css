@@ -1,0 +1,17 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.Footer a{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.Footer h4{
+    color: var(--gray);
+    font-size: var(--smallest);
+    font-weight: 300;
+}
