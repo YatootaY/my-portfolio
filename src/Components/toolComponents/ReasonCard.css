@@ -25,4 +25,9 @@
     .ReasonCard p{
         font-size: var(--mobileSmall);
     }
+
+    .ReasonCard{
+        width: 300px;
+        height: fit-content;
+    }
 }
