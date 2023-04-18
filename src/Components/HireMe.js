@@ -29,7 +29,7 @@ const HireMe = () => {
 
     return(
         <div className="HireMe" id="hire">
-            <p className="yellowText">Now the important part 🚨,</p>
+            <p className="yellowText">Now the important part <span id="siren">🚨</span>,</p>
             <h2 className="whiteTitle">Why should you hire me?</h2>
             <p>Here are some of the top reasons,</p>
             <div className="ReasonCards">
