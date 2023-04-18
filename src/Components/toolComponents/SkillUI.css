@@ -25,13 +25,24 @@
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition-duration: 0.2s;
+    cursor: default;
 }
 
-.skillCard:hover{
-    transform: translateY(-10px);
+.leftCard{
+    transition-duration: 0.3s;
 }
 
+.leftCard:hover{
+    transform: translateX(-10px);
+}
+
+.rightCard{
+    transition-duration: 0.3s;
+}
+
+.rightCard:hover{
+    transform: translateX(10px);
+}
 
 @media  screen and (max-width: 800px) {
 
@@ -59,6 +70,14 @@
 
     .leftCard{
         flex-wrap: wrap;
+    }
+
+    .rightCard:hover{
+        transform: none;
+    }
+
+    .leftCard:hover{
+        transform: none;
     }
 
 }

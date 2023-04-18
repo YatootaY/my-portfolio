@@ -7,11 +7,6 @@
     transition-duration: 0.2s;
 }
 
-.ProjectUI:hover{
-    transform: scale(1.01);
-}
-
-
 .textArea h1{
     font-size: var(--title);
     color: var(--white);
@@ -91,6 +86,4 @@ hr{
     .lineLeft{
         text-align: center;
     }
-
-
 }
