@@ -10,10 +10,15 @@
     gap:10px;
 }
 
+.Footer h4:hover{
+    color: var(--yellow);
+}
+
 .Footer h4{
     color: var(--gray);
     font-size: var(--mobileSmall);
     font-weight: 300;
+    transition-duration: 0.2s;
 }
 
 .Footer img{

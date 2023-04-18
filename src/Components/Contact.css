@@ -25,6 +25,12 @@
     color: var(--black);
     border-radius: 10px;
     margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.2s;
+}
+
+.Btn:hover{
+    transform: translateY(-2px);
 }
 
 .link{
