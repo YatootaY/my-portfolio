@@ -94,13 +94,13 @@
       transform:scale(1)  rotate(0);
     }
     25% {
-      transform:scale(7) rotate(-30deg);
+      transform:scale(3) rotate(-30deg);
     }
     50%{
-        transform: scale(7) rotate(5deg);
+        transform: scale(3) rotate(5deg);
     }
     75% {
-        transform:scale(7) rotate(-30deg);
+        transform:scale(3) rotate(-30deg);
     }
     100% {
       transform: scale(1) rotate(0);
@@ -110,7 +110,7 @@
 #sayHi{
     display: inline-block;
     animation-name: yo;
-    animation-duration: 2s;
+    animation-duration: 1.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
 }
