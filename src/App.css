@@ -19,6 +19,7 @@ body{
   font-family: 'Prompt', sans-serif;
   background-color: var(--black);
   color: var(--white);
+  cursor: default;
 }
 
 a{
