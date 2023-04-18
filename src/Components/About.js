@@ -10,7 +10,7 @@ const About = () => {
                 <p className="yellowText">Still having confused feeling ❓</p>
                 <h2 className="whiteTitle">Let’s get to know better!</h2>
                 <p className="aboutPara">
-                    Hello, my name is Kaung Nay Lin Khant. I enjoy creating a web app that may make our life easier. My interest in web development started in 2021 when I try to explore new things during the Covid-19 lockdown. The ability to create a useful product out of thin air attracts me to become a developer.
+                    Hello, my name is Kaung Nay Lin Khant. I enjoy creating web apps that may make our life easier. My interest in web development started in 2021 when I try to explore new things during the Covid-19 lockdown. The ability to create a useful product out of thin air attracts me to become a developer.
                     <br/><br/>
                     To this day, I have been working as Computer Science Instructor where I have to teach HTML/CSS and Python programming to students.
                     <br/><br/>
