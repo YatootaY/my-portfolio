@@ -14,7 +14,7 @@ const RightText = styled.div`
     width:500px;
 
 
-    @media  screen and (max-width: 800px) {
+    @media  screen and (max-width: 850px) {
         text-align:center;
         width:fit-content;
     }    
@@ -25,7 +25,7 @@ const LeftText = styled.div`
     width:500px;
 
 
-    @media  screen and (max-width: 800px) {
+    @media  screen and (max-width: 850px) {
         text-align:center;
         width:fit-content;
     }    
