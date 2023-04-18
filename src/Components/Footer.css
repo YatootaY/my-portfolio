@@ -12,20 +12,10 @@
 
 .Footer h4{
     color: var(--gray);
-    font-size: var(--smallest);
+    font-size: var(--mobileSmall);
     font-weight: 300;
 }
 
-@media  screen and (max-width: 800px) {
-
-    
-    .Footer h4{
-        font-size: var(--mobileSmall);
-    }
-
-    .Footer img{
-        width: 30px;
-    }
-
-
+.Footer img{
+    width: 30px;
 }
