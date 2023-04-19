@@ -10,18 +10,18 @@ import tailwind from "../assets/🦆 icon _file type tailwind_.png"
 
 const Hero = () => {
     return(
-        <div className="Hero hidden" id="introduction">
-            <p className="yellow">Hello there <span id="sayHi">✋</span>, I am</p>
-            <h1>Kaung Nay Lin Khant</h1>
-            <h1 className="gray">I make <span>ideas</span> come to life.</h1>
-            <p className="heroPara">
+        <div className="Hero" id="introduction">
+            <p className="yellow hidden">Hello there <span id="sayHi">✋</span>, I am</p>
+            <h1 className="hidden">Kaung Nay Lin Khant</h1>
+            <h1 className="gray hidden">I make <span>ideas</span> come to life.</h1>
+            <p className="heroPara hidden">
                 I am a passionate React Developer who loves
                 turning ideas into working apps. I enjoy
                 working in a fast-paced environment where I
                 receive opportunities to use and improve my
                 skills.
             </p>
-            <div className="heroImg">
+            <div className="heroImg hidden">
                 <img src={html} alt="" />
                 <img src={css} alt="" />
                 <img src={js} alt="" />

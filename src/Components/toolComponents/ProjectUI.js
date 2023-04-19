@@ -38,15 +38,15 @@ const ProjectUI = (props) => {
 
         return(
             <RightText className="textArea">
-                <h1 >{props.title}<span>{props.emoji}</span></h1>
-                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
+                <h1 className="hidden">{props.title}<span>{props.emoji}</span></h1>
+                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
                 
-                <p>{props.text}</p>
+                <p className="hidden">{props.text}</p>
                 
-                <div className="icons">
+                <div className="icons hidden">
                     {textIconGenerator()}
                 </div>
-                <a href={props.link} target="_blank" className="githubBtn">Check on GitHub</a>
+                <a href={props.link} target="_blank" className="githubBtn hidden">Check on GitHub</a>
             </RightText>
         )
     }
@@ -54,13 +54,13 @@ const ProjectUI = (props) => {
     const leftTextGenerater = () => {
         return(
             <LeftText className="textArea">
-                <h1 >{props.title}<span>{props.emoji}</span></h1>
-                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
-                <p>{props.text}</p>
-                <div className="icons">
+                <h1 className="hidden">{props.title}<span>{props.emoji}</span></h1>
+                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
+                <p className="hidden">{props.text}</p>
+                <div className="icons hidden">
                     {textIconGenerator()}
                 </div>
-                <a href={props.link} target="_blank" className="githubBtn">Check on GitHub</a>
+                <a href={props.link} target="_blank" className="githubBtn hidden">Check on GitHub</a>
             </LeftText>
         )
     }
@@ -105,7 +105,7 @@ const ProjectUI = (props) => {
             {
                 props.direction === "right" ? 
                 <>
-                    <div className="ProjectUI rightProject hidden">
+                    <div className="ProjectUI rightProject">
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     {rightTextGenerater()}
                     </div>
@@ -117,7 +117,7 @@ const ProjectUI = (props) => {
                 
                 :
                 <>
-                    <div className="ProjectUI leftProject hidden">
+                    <div className="ProjectUI leftProject">
                     {leftTextGenerater()}
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     </div>

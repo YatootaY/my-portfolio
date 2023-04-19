@@ -33,8 +33,8 @@ const Skills = () => {
 
     return( 
         <div className="Skills">
-            <h2 className="whiteText" style={{textAlign:"center"}}>Where did I learn those skills?</h2>
-            <p className="yellowText" style={{textAlign:"center"}}>I am glad you asked! 🧐</p>
+            <h2 className="whiteText hidden" style={{textAlign:"center"}}>Where did I learn those skills?</h2>
+            <p className="yellowText hidden" style={{textAlign:"center"}}>I am glad you asked! 🧐</p>
             <div className="skillsHistory">
                 {
                     skillsHistory.map((data,key) => {

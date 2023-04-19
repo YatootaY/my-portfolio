@@ -68,7 +68,7 @@ hr{
     text-align: left;
 }
 
-.ProjectUI.hidden {
+.ProjectUI .hidden {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
@@ -76,7 +76,7 @@ hr{
 }
 
   
-.ProjectUI.show{
+.ProjectUI .show{
     filter: blur(0);
     transform: translateX(0);
     opacity: 1;
