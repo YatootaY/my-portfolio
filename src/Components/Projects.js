@@ -27,9 +27,10 @@ const Projects = () => {
             pic:Project3,
             title:"Yours Resolution",
             emoji:"📝",
-            text:"Answer questions and generate a code to share your new year's resolution with loved ones. (Hackathon winning project)",
+            text:"Answer questions and generate a code to share your new year's resolution with loved ones.",
             tech:["html","css","reactjs","firebase","tailwind"],
-            link:"https://github.com/YatoAki/yours-resolution"
+            link:"https://github.com/YatoAki/yours-resolution",
+            specialDetail: {name:"Hackathon winning project", link:"https://devpost.com/software/yours-resolution", emoji:"🏆"}
         }
     ]  
 
@@ -41,7 +42,7 @@ const Projects = () => {
             </div>
             
             {projectData.map((data,key) => {
-                return <ProjectUI pic={data.pic} title={data.title} text={data.text} emoji={data.emoji} direction={key%2 === 0 ? "right" : "left"} tech={data.tech} link={data.link}/>
+                return <ProjectUI pic={data.pic} title={data.title} text={data.text} emoji={data.emoji} direction={key%2 === 0 ? "right" : "left"} tech={data.tech} link={data.link} specialDetail={data.specialDetail}/>
             })}
             
         </div>

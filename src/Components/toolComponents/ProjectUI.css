@@ -17,7 +17,7 @@
     color:var(--gray)
 }
 
-.textArea a{
+.textArea .githubBtn{
     font-size: var(--normalText);
     color: var(--black);
     background-color: var(--yellow);
@@ -26,6 +26,17 @@
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.textArea .special{
+    color: var(--yellow);
+    transition-duration: 0.2s;
+}
+
+.textArea .special:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+  text-underline-offset: 0.1em;
 }
 
 .icons img{
@@ -86,4 +97,9 @@ hr{
     .lineLeft{
         text-align: center;
     }
+
+    .textArea .special{
+        font-size: var(--mobileSmall);
+    }
+
 }
