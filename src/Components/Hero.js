@@ -10,7 +10,7 @@ import tailwind from "../assets/🦆 icon _file type tailwind_.png"
 
 const Hero = () => {
     return(
-        <div className="Hero" id="introduction">
+        <div className="Hero hidden" id="introduction">
             <p className="yellow">Hello there <span id="sayHi">✋</span>, I am</p>
             <h1>Kaung Nay Lin Khant</h1>
             <h1 className="gray">I make <span>ideas</span> come to life.</h1>

@@ -36,7 +36,7 @@ const Projects = () => {
 
     return(
         <div className="Projects" id="projects">
-            <div className="projectsText">
+            <div className="projectsText hidden">
                 <h2 className="whiteTitle">Let’s see some of my projects! 🗂</h2>
                 <p className="yellowText">I hope this will convince you to hire me. 🙄</p>
             </div>

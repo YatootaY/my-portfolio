@@ -31,7 +31,7 @@ const Skills = () => {
         }
     ]
 
-    return(
+    return( 
         <div className="Skills">
             <h2 className="whiteText" style={{textAlign:"center"}}>Where did I learn those skills?</h2>
             <p className="yellowText" style={{textAlign:"center"}}>I am glad you asked! 🧐</p>

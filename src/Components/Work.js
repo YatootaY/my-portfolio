@@ -24,11 +24,11 @@ const Work = () => {
 
     return(
         <div className="Work">
-            <div className="workIntro">
+            <div className="workIntro hidden">
                 <h2 className="whiteTitle">What is my work experience?</h2>
                 <p>I had to leave school earlier than expected due to the circumstances in my country.</p>
             </div>
-            <div className="workDetails">
+            <div className="workDetails hidden">
                 <h2>However 😎,</h2>
                 <p>I have a strong understanding of programming languages and am also skilled at explaining complex concepts, which enabled me to work as a <span>Computer Science and Robotics Instructor</span> in the following organizations.</p>
             </div>

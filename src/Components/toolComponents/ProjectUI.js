@@ -105,7 +105,7 @@ const ProjectUI = (props) => {
             {
                 props.direction === "right" ? 
                 <>
-                    <div className="ProjectUI rightProject">
+                    <div className="ProjectUI rightProject hidden">
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     {rightTextGenerater()}
                     </div>
@@ -117,7 +117,7 @@ const ProjectUI = (props) => {
                 
                 :
                 <>
-                    <div className="ProjectUI leftProject">
+                    <div className="ProjectUI leftProject hidden">
                     {leftTextGenerater()}
                     <ImageUI imgSrc={props.pic} width={400} height={300}/>
                     </div>

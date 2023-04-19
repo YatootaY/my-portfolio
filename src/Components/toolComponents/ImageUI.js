@@ -47,7 +47,7 @@ const ImageUI = (props) => {
 
 
     return(
-        <MainDiv>
+        <MainDiv className="hidden">
             <StyledImage src={props.imgSrc} alt="" width={props.width} height={props.height}/>
             <BorderDiv width={props.width} height={props.height}/>
         </MainDiv>

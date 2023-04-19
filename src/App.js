@@ -8,8 +8,27 @@ import HireMe from './Components/HireMe';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import React,{useEffect} from 'react';
 
 function App() {
+
+  useEffect(()=> {
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+
+        if(entry.isIntersecting){
+          entry.target.classList.add('show')
+        }else{
+          entry.target.classList.remove("show")
+        }
+      })
+    })
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el))
+  })
+
   return (
     <div className="App">
       <div className='home'>
@@ -18,7 +37,7 @@ function App() {
       </div>
       <Projects/>
       <About/>
-      <Skills/>
+      <Skills />
       <HireMe/>
       <Work/>
       <Contact/>

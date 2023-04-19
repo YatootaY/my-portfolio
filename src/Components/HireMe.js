@@ -29,9 +29,9 @@ const HireMe = () => {
 
     return(
         <div className="HireMe" id="hire">
-            <p className="yellowText">Now the important part <span id="siren">🚨</span>,</p>
-            <h2 className="whiteTitle">Why should you hire me?</h2>
-            <p>Here are some of the top reasons,</p>
+            <p className="yellowText hidden">Now the important part <span id="siren">🚨</span>,</p>
+            <h2 className="whiteTitle hidden">Why should you hire me?</h2>
+            <p className="hidden">Here are some of the top reasons,</p>
             <div className="ReasonCards">
                 {
                     reasons.map((data) => {
