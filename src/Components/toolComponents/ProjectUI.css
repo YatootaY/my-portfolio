@@ -18,6 +18,7 @@
 }
 
 .textArea .githubBtn{
+    display: inline-block;
     font-size: var(--normalText);
     color: var(--black);
     background-color: var(--yellow);
@@ -26,6 +27,11 @@
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.githubBtn:hover{
+    transform: translateY(-5px);
 }
 
 .textArea .special{
