@@ -11,7 +11,7 @@ const Skills = () => {
     const skillsHistory = [
         {
             pic:miit,
-            name:"Myanmar Institute of Technology",
+            name:"Myanmar Institute of Information Technology",
             text:"I learned <span>C programming</span> in my first year of university and got a taste of programming. In addition to that, I have also done <span>embedded programming</span> using Arduino."
         },
         {
