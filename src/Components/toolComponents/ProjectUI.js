@@ -13,6 +13,11 @@ const RightText = styled.div`
     text-align:right;
     width:500px;
 
+    @media  screen and (max-width: 1000px) {
+        text-align:left;
+        width:fit-content;
+    }    
+
 
     @media  screen and (max-width: 850px) {
         text-align:center;
@@ -24,6 +29,10 @@ const LeftText = styled.div`
     text-align:left;
     width:500px;
 
+    @media  screen and (max-width: 1000px) {
+        text-align:left;
+        width:fit-content;
+    }   
 
     @media  screen and (max-width: 850px) {
         text-align:center;

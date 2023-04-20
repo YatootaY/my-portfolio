@@ -1,5 +1,5 @@
 .Hero{
-    padding: 0 var(--pad);
+    padding: 0;
     flex-grow: 1;
     cursor: default;
     display: flex;
@@ -24,7 +24,7 @@
 }
 
 .heroPara{
-    width: 40vw;
+    width: 650px;
 }
 
 .heroImg{

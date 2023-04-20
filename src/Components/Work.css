@@ -1,5 +1,5 @@
 .Work{
-    padding: 50px 10vw;
+    padding: 50px 0;
 }
 
 .workIntro{
@@ -17,10 +17,6 @@
     color: var(--yellow);
 }
 
-.workDetails p{
-    width: 60vw;
-}
-
 .workDetails span{
     color: var(--yellow);
 }
@@ -29,7 +25,7 @@
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 50px;
 }
 
@@ -48,6 +44,9 @@
     .workIntro p{
         font-size: var(--small);
     }
-  
-  }
+
+    .workCards{
+        justify-content: center;
+    }
+}
   
