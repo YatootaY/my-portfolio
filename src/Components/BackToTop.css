@@ -1,0 +1,20 @@
+#backToTopContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    animation: jump 2s linear none infinite;
+    z-index: 1;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

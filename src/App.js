@@ -9,6 +9,7 @@ import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import React,{useEffect} from 'react';
+import BackToTop from './Components/BackToTop';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Nav/>
         <Hero/>
       </div>
+      <BackToTop/>
       <Projects/>
       <About/>
       <Skills />

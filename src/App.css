@@ -15,6 +15,10 @@
   --mobileSmall:12px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Prompt', sans-serif;
   background-color: var(--black);
