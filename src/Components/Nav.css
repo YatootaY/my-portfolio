@@ -22,12 +22,22 @@
     font-size: var(--small);
 }
 
+.Nav li:hover{
+    color: var(--yellow);
+}
+
 .Nav ul li:last-child{
     background-color: var(--yellow);
     padding: 5px 8px;
     color: var(--black);
     border-radius: 5px;
+    transition-duration: 0.2s;
 }
+
+.Nav ul li:last-child:hover{
+    transform: scale(1.1);
+}
+
 
 @media  screen and (max-width: 1100px) {
 
