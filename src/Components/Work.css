@@ -29,6 +29,20 @@
     gap: 50px;
 }
 
+.workDetails.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+  
+.workDetails.show{
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
 @media  screen and (max-width: 800px) {
 
     .workDetails p{
