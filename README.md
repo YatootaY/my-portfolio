@@ -6,6 +6,13 @@ This is my personal portfolio website designed by me using Figma and built with 
 
 [View live](https://yatoaki.github.io/my-portfolio/)
 
+## Design
+
+I have designed the website by using Figma to draw wireframe and prototypes.
+
+<img src="https://i.imgur.com/rk7HS2w.png">
+
+
 ## Features
 
 - Home area with a brief introduction about me and my skills.
