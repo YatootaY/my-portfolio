@@ -75,7 +75,6 @@ const ProjectUI = (props) => {
     }
 
     const textIconGenerator = () => {
-        console.log(props.tech)
         return(
             props.tech.map((name) => {
                 if (name === "html"){

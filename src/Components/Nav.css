@@ -11,22 +11,22 @@
     font-weight: 300;
 }
 
-.Nav ul{
+.mainNav{
     list-style: none;
     display: flex;
     align-items: center;
     gap:40px;
 }
 
-.Nav li{
+.mainNav li{
     font-size: var(--small);
 }
 
-.Nav li:hover{
+.mainNav li:hover{
     color: var(--yellow);
 }
 
-.Nav ul li:last-child{
+.mainNav li:last-child{
     background-color: var(--yellow);
     padding: 5px 8px;
     color: var(--black);
@@ -34,7 +34,7 @@
     transition-duration: 0.2s;
 }
 
-.Nav ul li:last-child:hover{
+.mainNav li:last-child:hover{
     transform: scale(1.1);
 }
 
@@ -46,7 +46,7 @@
 
 @media  screen and (max-width: 800px) {
 
-  .Nav ul{
+  .mainNav{
     display: none;
   }
 
