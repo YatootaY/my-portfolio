@@ -1,10 +1,18 @@
-#backToTopContainer {
+.backToTopContainer {
     position: fixed;
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
     animation: jump 2s linear none infinite;
     z-index: 1;
+    transition-duration: 0.2s;
+}
+
+.backToTopContainer.visible{
+    visibility: visible;
+    opacity: 1;
 }
 
 @keyframes jump {
