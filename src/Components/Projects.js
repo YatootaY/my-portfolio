@@ -4,16 +4,28 @@ import ProjectUI from "./toolComponents/ProjectUI"
 import Project1 from ".././assets/selfieGenerator.png"
 import Project2 from ".././assets/5minute.png"
 import Project3 from ".././assets/yoursresolution.png"
+import Project4 from ".././assets/10doc.png"
 
 const Projects = () => {
     const projectData = [
+        
         {
             pic:Project1,
             title:"Selfie Generator",
             emoji:"📸",
             text:"Upload your photo and swap the background with background art to make it pretty.",
             tech:["html","css","reactjs","figma"],
-            link:"https://github.com/YatoAki/selfie-generator"
+            link:"https://github.com/YatoAki/selfie-generator",
+            specialDetail: {name:"Personal Project", link:"https://yatoaki.github.io/selfie-generator/", emoji:"💼"}
+        },
+        {
+            pic:Project4,
+            title:"10 Days of Code",
+            emoji:"💻",
+            text:"Generate achievement cards for participants of 10DOC by LatTwaeEducation and LatTwaeHack",
+            tech:["html","css","reactjs","figma","redux"],
+            link:"https://yatoaki.github.io/10DaysOfCode-LTE/",
+            specialDetail: {name:"Freelance Project", link:"https://yatoaki.github.io/10DaysOfCode-LTE/", emoji:"💰"}
         },
         {
             pic:Project2,
@@ -21,7 +33,8 @@ const Projects = () => {
             emoji:"⏳",
             text:"Share your code and create a chat room that only exists for 5 minutes. Try to get to know someone within the time limit.",
             tech:["html","css","reactjs","firebase","tailwind"],
-            link:"https://github.com/YatoAki/five-minute-chat"
+            link:"https://github.com/YatoAki/five-minute-chat",
+            specialDetail: {name:"Personal Project", link:"https://yatoaki.github.io/five-minute-chat/", emoji:"💼"}
         },
         {
             pic:Project3,

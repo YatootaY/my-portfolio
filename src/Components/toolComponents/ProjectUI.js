@@ -7,6 +7,7 @@ import reactjs from "../../assets/🦆 icon _file type reactjs_.png"
 import figma from "../../assets/Figma (icon — Colour).png"
 import tailwind from "../../assets/🦆 icon _file type tailwind_.png"
 import ImageUI from "./ImageUI";
+import redux from "../../assets/redux.png"
 import styled from "styled-components";
 
 const RightText = styled.div`
@@ -99,6 +100,10 @@ const ProjectUI = (props) => {
 
                 if (name === "figma"){
                     return(<img src={figma} alt="" />)
+                }
+
+                if (name === "redux"){
+                    return(<img src={redux} alt="" />)
                 }
 
                 return null
