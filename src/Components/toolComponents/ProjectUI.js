@@ -49,7 +49,7 @@ const ProjectUI = (props) => {
         return(
             <RightText className="textArea">
                 <h1 className="hidden">{props.title}<span>{props.emoji}</span></h1>
-                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
+                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name}<span className="specialEmoji"> {props.specialDetail.emoji}</span></a>}
                 
                 <p className="hidden">{props.text}</p>
                 
@@ -65,7 +65,7 @@ const ProjectUI = (props) => {
         return(
             <LeftText className="textArea">
                 <h1 className="hidden">{props.title}<span>{props.emoji}</span></h1>
-                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name} <span className="specialEmoji">{props.specialDetail.emoji}</span></a>}
+                {props.specialDetail && <a href={props.specialDetail.link} target="_blank" className="special hidden">{props.specialDetail.name}<span className="specialEmoji"> {props.specialDetail.emoji}</span></a>}
                 <p className="hidden">{props.text}</p>
                 <div className="icons hidden">
                     {textIconGenerator()}

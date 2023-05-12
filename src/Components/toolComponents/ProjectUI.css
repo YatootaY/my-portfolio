@@ -37,12 +37,13 @@
 .textArea .special{
     color: var(--yellow);
     transition-duration: 0.2s;
+    text-underline-offset: 0.2em;
+    text-decoration: underline;
 }
 
 .textArea .special:hover{
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-position: under;
-  text-underline-offset: 0.1em;
 }
 
 .icons img{
@@ -102,6 +103,7 @@ hr{
 
 .specialEmoji{
     display: inline-block;
+    margin-left: 10px;
     animation-name: leftRight;
     animation-duration: 2s;
     animation-iteration-count: infinite;
