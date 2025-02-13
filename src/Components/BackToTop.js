@@ -13,7 +13,6 @@ const BackToTop = () => {
 
     const toggleBackToTop = () => {
         const backToTopButton = document.querySelector('.backToTopContainer');
-        console.log(backToTopButton)
         if (window.scrollY > 500) {
           backToTopButton.classList.add('visible');
         } else {

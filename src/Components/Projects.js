@@ -15,8 +15,8 @@ const Projects = () => {
             emoji:"📸",
             text:"Upload your photo and swap the background with background art to make it pretty.",
             tech:["html","css","reactjs","figma"],
-            link:"https://github.com/YatoAki/selfie-generator",
-            specialDetail: {name:"Personal Project", link:"https://yatoaki.github.io/selfie-generator/", emoji:"💼"}
+            link:"https://github.com/yatootay/selfie-generator",
+            specialDetail: {name:"Personal Project", link:"https://yatootay.github.io/selfie-generator/", emoji:"💼"}
         },
         {
             pic:Project4,
@@ -24,8 +24,8 @@ const Projects = () => {
             emoji:"💻",
             text:"Generate achievement cards for participants of 10DOC by LatTwaeEducation and LatTwaeHack",
             tech:["html","css","reactjs","figma","redux"],
-            link:"https://yatoaki.github.io/10DaysOfCode-LTE/",
-            specialDetail: {name:"Freelance Project", link:"https://yatoaki.github.io/10DaysOfCode-LTE/", emoji:"💰"}
+            link:"https://yatootay.github.io/10DaysOfCode-LTE/",
+            specialDetail: {name:"Freelance Project", link:"https://yatootay.github.io/10DaysOfCode-LTE/", emoji:"💰"}
         },
         {
             pic:Project2,
@@ -33,8 +33,8 @@ const Projects = () => {
             emoji:"⏳",
             text:"Share your code and create a chat room that only exists for 5 minutes. Try to get to know someone within the time limit.",
             tech:["html","css","reactjs","firebase","tailwind"],
-            link:"https://github.com/YatoAki/five-minute-chat",
-            specialDetail: {name:"Personal Project", link:"https://yatoaki.github.io/five-minute-chat/", emoji:"💼"}
+            link:"https://github.com/yatootay/five-minute-chat",
+            specialDetail: {name:"Personal Project", link:"https://yatootay.github.io/five-minute-chat/", emoji:"💼"}
         },
         {
             pic:Project3,
@@ -42,7 +42,7 @@ const Projects = () => {
             emoji:"📝",
             text:"Answer questions and generate a code to share your new year's resolution with loved ones.",
             tech:["html","css","reactjs","firebase","tailwind"],
-            link:"https://github.com/YatoAki/yours-resolution",
+            link:"https://github.com/yatootay/yours-resolution",
             specialDetail: {name:"Hackathon winning project", link:"https://devpost.com/software/yours-resolution", emoji:"🏆"}
         }
     ]  

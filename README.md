@@ -4,7 +4,7 @@
 
 This is my personal portfolio website designed by me using Figma and built with ReactJS. The website showcases my skills, projects, and achievements.
 
-[View live](https://yatoaki.github.io/my-portfolio/)
+[View live](https://yatootay.github.io/my-portfolio/)
 
 ## Design
 

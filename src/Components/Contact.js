@@ -13,7 +13,7 @@ const Contact = () => {
             </p>
             <p className="yellowText">If you are interested in my ability for your team,</p>
             <a href="https://www.linkedin.com/in/kaung-nay-lin-khant-3303021b2/" target="_blank" className="Btn">Message me on Linkedin</a>
-            <a href="https://github.com/yatoaki" target="_blank" className="link">Check my GitHub</a>
+            <a href="https://github.com/yatootay" target="_blank" className="link">Check my GitHub</a>
         </div>
     )
 }
